@@ -249,6 +249,12 @@ display: none;
     top: 100%;
 }
 /* end targets */
+/* start Statistics  */
+.st-body {
+    grid-template-columns: repeat(auto-fill,minmax(250px , 1fr));
+    gap: 20px;
+}
+/* end Statistics  */
 /* right side end */
 
 
