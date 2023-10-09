@@ -261,6 +261,43 @@ display: none;
     cursor: pointer;
 }
 /* end tasks */
+/* start progress  */
+.prog .content ul::before{
+    content: "";
+    background-color: #0075FF;
+    height: 100%;
+    width: 3px;
+    left: 11px;
+    position: absolute;
+}
+.prog .content ul li::before {
+    content: "";
+    background-color: #0075FF;
+    border: 2px solid white;
+    outline: 2px solid #0075FF;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    left: 0;
+    position: absolute;
+}
+.prog .content ul .done::before{
+    background-color: white ;
+    animation: bg 0.8s infinite alternate;
+}
+.prog .content li:last-child::before{
+    background-color: white;
+}
+@keyframes bg {
+    0% {
+        background-color: #0075FF;
+    }
+    100%{
+        background-color: white ;
+    }
+    
+}
+/* end progress  */
 /* right side end */
 
 
