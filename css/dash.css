@@ -343,6 +343,9 @@ display: none;
 }
 /* end social */
 /* start project */
+.project table{
+    min-width: 1000px;
+}
 .project table img:not(:first-child) {
     margin-left: -20px;
 }
