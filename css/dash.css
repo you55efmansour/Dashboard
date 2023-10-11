@@ -153,7 +153,7 @@ display: none;
 }
 .target-box .text span{
     font-size: 12px;
-    left: calc(76% + 3px);
+    left: 72%;
     top: -37px;
     text-align: center;
     border-radius: 6px;
@@ -192,7 +192,7 @@ display: none;
 }
 .target-box-2 .text-2 span{
     font-size: 12px;
-    left: calc(51% + 3px);
+    left:47% ;
     top: -37px;
     text-align: center;
     border-radius: 6px;
@@ -231,7 +231,7 @@ display: none;
 }
 .target-box-3 .text-3 span{
     font-size: 12px;
-    left: calc(71% + 3px);
+    left: 67%;
     top: -37px;
     text-align: center;
     border-radius: 6px;
