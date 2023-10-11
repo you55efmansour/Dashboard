@@ -91,19 +91,19 @@ display: none;
     position: absolute;
     right: 2px;
 }
-.right-side > h1::after,
-.right-side > h1::before {
+.right-side .container > h1::after,
+.right-side .container > h1::before {
     content: "";
     height: 3px;
     position: absolute;
     bottom: -10px;
     left: 0;
 }
-.right-side > h1::after{
+.right-side .container > h1::after{
     background-color: white;
     width: 40px;
 }
-.right-side > h1::before {
+.right-side .container > h1::before {
     background-color: rgba(0, 0, 0, 0.116);
     width: 120px;
 }
