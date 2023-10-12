@@ -374,6 +374,12 @@ display: none;
     min-height: 160px;
 }
 /* end settings  */
+/* start widgets  */
+.widgets .body .form-check input ,
+.widgets .body .form-check label {
+    cursor: pointer;
+}
+/* end widgets */
 
 
 
