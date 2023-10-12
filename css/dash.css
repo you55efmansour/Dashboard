@@ -367,6 +367,12 @@ display: none;
     width: 70px;
     height: 30px;
 }
+.general form .disable {
+    cursor: no-drop;
+}
+.general form textarea {
+    min-height: 160px;
+}
 /* end settings  */
 
 
