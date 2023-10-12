@@ -380,6 +380,20 @@ display: none;
     cursor: pointer;
 }
 /* end widgets */
+/* backup start */
+
+.backup .body input,
+.backup .body .form-check-label{
+    cursor: pointer;
+}
+.backup .body .btn{
+    border: 2px solid #333333;
+}
+.backup .body .btn-check:checked+.btn{
+    border-color: #0075FF;
+    color: #0075FF !important;
+}
+/* backup end */
 
 
 
