@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Settings</title>
     <!-- css files start-->
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -28,14 +28,14 @@
                 <ul class="ps-2 mt-3">
                     <!-- 1 -->
                     <li class="mb-2 fs-14">
-                        <a class="d-flex active p-2 justify-content-md-start rounded-2 justify-content-center align-items-center gap-3" href="index.html">
+                        <a class="d-flex p-2 justify-content-md-start rounded-2 justify-content-center align-items-center gap-3" href="index.html">
                             <i class="fas fa-chart-bar fa-fw"></i>
                             <span class="d-none d-md-block" >Dashboard</span>
                         </a>
                     </li>
                     <!-- 2 -->
                     <li class="mb-2 fs-14">
-                        <a class="d-flex p-2 justify-content-md-start rounded-2 justify-content-center align-items-center gap-3" href="settings.html">
+                        <a class="d-flex active p-2 justify-content-md-start rounded-2 justify-content-center align-items-center gap-3" href="settings.html">
                             <i class="fa-solid fa-gear fa-fw"></i>
                             <span class="d-none d-md-block">Settings</span>
                         </a>
@@ -108,7 +108,28 @@
             </div>
             <!-- content start  -->
             <div class="content overflow-hidden d-grid ">
-                
+                <!-- site start  -->
+                <div class="site rounded-2 bg-dark-subtle text-black">
+                    <!-- start container  -->
+                    <div class="container py-3">
+                        <h2 class="fw-bold fs-3">Site Control</h2>
+                        <p class="fs-14 fw-semibold text-black-50 mb-3">Control The Website If There Is Maintenance</p>
+                        <div class="body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="text">
+                                    <h2 class="fs-6">Website Control</h2>
+                                    <p class="fs-14 text-black-50">Open/Close Website And Type The Reason</p>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                </div>
+                            </div>
+                            <textarea class="w-100 border fs-14 p-2 rounded-2" placeholder="close message content" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <!-- end container  -->
+                </div>
+                <!-- site end  -->
             </div>
             <!-- content end -->
         </div>

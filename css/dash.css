@@ -27,6 +27,9 @@ input:focus{
 textarea{
 resize: none;
 }
+textarea:focus{
+outline: none;
+}
 
 
 
@@ -357,6 +360,14 @@ display: none;
 /* end project */
 /* right side end */
 
+
+/* start settings */
+.form-switch .form-check-input {
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+/* end settings  */
 
 
 
