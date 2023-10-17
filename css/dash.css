@@ -361,6 +361,37 @@ display: none;
 /* right side end */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* start settings */
 .form-switch .form-check-input {
     cursor: pointer;
@@ -394,6 +425,86 @@ display: none;
     color: #0075FF !important;
 }
 /* backup end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start profile */
+    .prof-inf .inf .left .imp {
+        height: 5px;
+        background-color: #0077ff50;
+        border-radius: 5px;
+    }
+    .prof-inf .inf .left .imp::before {
+        content: "";
+        height: 100%;
+        width: 75%;
+        position: absolute;
+        background-color: rgb(0, 119, 255);
+        border-radius: 5px;
+    }
+    .prof-inf .inf .left ul li {
+       color: #f59e0b;
+    }
+    /* start profile */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -463,6 +574,9 @@ display: none;
     .w-sm-25 {
         width: 25% !important;
     }
+    .w-sm-40 {
+        width: 40% !important;
+    }
     .w-sm-50 {
         width: 50% !important;
     }
@@ -482,6 +596,9 @@ display: none;
     .w-md-25 {
         width: 25% !important;
     }
+    .w-md-40 {
+        width: 40% !important;
+    }
     .w-md-50 {
         width: 50% !important;
     }
@@ -499,6 +616,9 @@ display: none;
     }
     .w-lg-25 {
         width: 25% !important;
+    }
+    .w-lg-40 {
+        width: 40% !important;
     }
     .w-lg-50 {
         width: 50% !important;
