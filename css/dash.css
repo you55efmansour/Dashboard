@@ -489,6 +489,65 @@ display: none;
 
 
 
+/* start projects */
+.projects-imgs img{
+    border: 2px solid #ced4da;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.projects-imgs img:not(:first-child){
+margin-left: -15px;
+}
+.projects-skills p {
+    width:fit-content;
+}
+.projects-footer div:empty{
+    height: 5px;
+    border-radius: 5px;
+    background-color: #3333333a;
+    position: relative;
+}
+.projects-footer div:empty::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 5px;
+    border-radius: 5px;
+}
+.dash-footer div:empty::after{
+    width: 70%;
+    background-color: #f44336;
+}
+.portal-footer div:empty::after{
+    width: 50%;
+    background-color: #22c55e;
+}
+.chat-footer div:empty::after{
+    width: 70%;
+    background-color: #0075FF;
+}
+.ah-dash-footer div:empty::after{
+    width: 50%;
+    background-color: #22c55e;
+}
+.ah-portal-footer div:empty::after{
+    width: 70%;
+    background-color: #22c55e;
+}
+.mo-app-footer div:empty::after{
+    width: 30%;
+    background-color: #f44336;
+}
+.mo-dash-footer div:empty::after{
+    width: 70%;
+    background-color: #22c55e;
+}
+.ah-app-footer div:empty::after{
+    width: 90%;
+    background-color: #22c55e;
+}
+/* end projects  */
 
 
 
@@ -509,8 +568,30 @@ display: none;
 
 
 
-
-
+/* start courses */
+.content-courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+}
+.content-courses .instructor {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
+.content-courses .info .title {
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* end courses */
 
 
 
@@ -528,14 +609,17 @@ display: none;
         margin-right: 10px;
         gap: 10px;
     }
+    .content-courses{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
     
 }
 /* mid  */
 @media (min-width: 768px) {
     .left-head{
-     display: block;
+        display: block;
     }
-    
 }
 /* large  */
 @media (min-width: 992px) {
