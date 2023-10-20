@@ -600,6 +600,116 @@ margin-left: -15px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* start friends  */
+.friend .contact {
+    left: 10px;
+    top: 10px;
+}
+.friend .rad-half {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* end friends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* files start  */
+.files-page {
+    height: fit-content;
+}
+.files-content {
+    flex: 1;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.files-content .file{
+    height: fit-content;
+}
+.files-content .file img {
+    width: 64px;
+    height: 64px;
+    transition: 0.3s;
+}
+.files-content .file:hover img{
+    transform: rotate(5deg);
+}
+/* files end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* all screens start */
 /* small  */
 @media (max-width: 768px) {
