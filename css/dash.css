@@ -692,6 +692,45 @@ margin-left: -15px;
 
 
 
+/* plans start */
+.plan .container ul li {
+    display: flex;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+}
+.plan .container ul li i:first-child {
+    font-size: 18px;
+    margin-right: 5px;
+}
+.plan .container ul li .yes{
+    color: #22c55e;
+}
+.plan .container ul li i:not(.yes , .help){
+    color: #f44336;
+}
+.plan .container ul li .help  {
+    margin-left: auto;
+}
+/* plans end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
