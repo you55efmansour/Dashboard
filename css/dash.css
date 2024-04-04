@@ -42,6 +42,11 @@ outline: none;
 .active {
     background-color: #494949cc;
 }
+.left-side .container{
+    position: fixed;
+    padding: 0;
+    width: 12%;
+}
 .left-head{
 display: none;
 }
